@@ -5,6 +5,13 @@ var quotes = [
     { author: 'Edgar Allen Poe', text: 'Believe only half of what you see, and nothing that you hear.' }
 ];
 
+app.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', 'http://codepen.io/gmcclure/pen/QbBGEm');
+    res.setHeader('Access-Control-Allow-Methods', 'GET');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With, content-type');
+    next();
+});
+
 app.get('/', function(req, res) {
     res.send('You have found the horror quote generator.');
 });
