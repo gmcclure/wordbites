@@ -6,7 +6,7 @@ var quotes = [
 ];
 
 app.use(function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', 'http://s.codepen.io/gmcclure/pen/QbBGEm');
+    res.setHeader('Access-Control-Allow-Origin', 'http://s.codepen.io');
     res.setHeader('Access-Control-Allow-Methods', 'GET');
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With, content-type');
     next();
