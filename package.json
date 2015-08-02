@@ -1,8 +1,16 @@
 {
     "name": "wordbites-rebitten",
-    "description": "A horror quote API",
     "version": "0.0.1",
+    "description": "A horror quote API",
+    "main": "app.js",
     "dependencies": {
         "express": "4.x"
-    }
+    },
+    "engines": {
+        "node": "0.12.7"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Greg McClure"
 }
