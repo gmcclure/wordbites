@@ -1,0 +1,8 @@
+{
+    "name": "wordbites-rebitten",
+    "description": "A horror quote API",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.x"
+    }
+}
