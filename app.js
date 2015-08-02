@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 var quotes = [
-    { author: 'Edgar Allen Poe', text: 'Believe only half of what you see, and nothing that you hear.' }
+    { author: 'Edgar Allen Poe', text: 'Believe only half of what you see, and nothing that you hear.' },
     { author: 'Stephen King', text: "Alone. Yes, that's the key word, the most awful word in the English tongue. Murder doesn't hold a candle to it and hell is only a poor synonym." }
 ];
 
