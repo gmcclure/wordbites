@@ -2,12 +2,12 @@ var express = require('express');
 var app = express();
 
 var quotes = [
-    { author: 'Edgar Allen Poe', text: 'Believe only half of what you see, and nothing that you hear.' },
-    { author: 'Stephen King', text: "Alone. Yes, that's the key word, the most awful word in the English tongue. Murder doesn't hold a candle to it and hell is only a poor synonym." },
-    { author: 'H. P. Lovecraft', text: "From even the greatest of horrors irony is seldom absent." }
+    { author: "Edgar Allen Poe", text: "Believe only half of what you see, and nothing that you hear." },
+    { author: "Stephen King", text: "Alone. Yes, that's the key word, the most awful word in the English tongue. Murder doesn't hold a candle to it and hell is only a poor synonym." },
+    { author: "H. P. Lovecraft", text: "From even the greatest of horrors irony is seldom absent." },
     { author: "Edgar Allan Poe", text: "Believe only half of what you see and nothing that you hear." },
     { author: "H.P. Lovecraft,", text: "From even the greatest of horrors irony is seldom absent." },
-    { author: "Stephen King,", text: "The man in black fled across the desert, and the gunslinger followed." },
+    { author: "Stephen King", text: "The man in black fled across the desert, and the gunslinger followed." },
     { author: "Stephen King", text: "We make up horrors to help us cope with the real ones." },
     { author: "Stephen King", text: "Give me just enough information so that I can lie convincingly." },
     { author: "Edgar Allan Poe", text: "There are moments when even to the sober eye of reason, the world of our sad humanity may assume the semblance of Hell." },
